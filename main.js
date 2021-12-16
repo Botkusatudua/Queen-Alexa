@@ -45,7 +45,7 @@ const starts = async (hyper = new WAConnection()) => {
     var _0x5507=["\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D","\x64\x65\x66\x61\x75\x6C\x74","\x74\x65\x78\x74\x53\x79\x6E\x63","\x6C\x6F\x67","\x73\x74\x72\x69\x6E\x67"];console[_0x5507[3]](color(figlet[_0x5507[2]](_0x5507[0],{horizontalLayout:_0x5507[1]})));console[_0x5507[3]](banner[_0x5507[4]]);console[_0x5507[3]](color(figlet[_0x5507[2]](_0x5507[0],{horizontalLayout:_0x5507[1]})))
   
     hyper.logger.level = 'warn'
-    hyper.version = [2, 2143, 3] 
+    hyper.version = [2, 2123, 8] 
     hyper.browserDescription = ["Queen Alexa", "Safari", "3.0"];
 
     hyper.on('qr', () => {
